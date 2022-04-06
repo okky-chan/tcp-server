@@ -45,8 +45,8 @@ void main() {
 
 	SOCKET clientSocket = accept(listening, (sockaddr*)&client, &clientSize);
 
-	char host[NI_MAXHOST];		// client remote name
-	char service[NI_MAXHOST];   // service client (such as port)
+	char host[NI_MAXHOST];		//client remote name
+	char service[NI_MAXHOST];   //service client (such as port)
 
 	ZeroMemory(host, NI_MAXHOST);
 	ZeroMemory(service, NI_MAXHOST);
