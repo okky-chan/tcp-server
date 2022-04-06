@@ -1,7 +1,7 @@
 #include <iostream>
 #include <WS2tcpip.h>
 
-#pragma comment (lib, "ws2_32.lib")
+#pragma comment (lib, "ws2_32.lib") //Winsock Library
 
 #define PORT 54000
 
